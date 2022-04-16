@@ -27,17 +27,17 @@ def seed_everything(seed):
 seed_everything(seed)
 
 paths = []
-train_dir_real = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/real/Images/RealTrainSet/real/'
-train_dir_fake = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/fake/Images/FakeTrainSet/FaceSwap/'
-train_dir_fake_2 = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/fake/Images/FakeTrainSet/Face2Face/'
-train_dir_fake_3 = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/fake/Images/FakeTrainSet/Deepfakes/'
-train_dir_fake_4 = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/fake/Images/FakeTrainSet/NeuralTextures/'
+train_dir_real = 'path_to_real_train_set'
+train_dir_fake = 'path_to_fake_FaceSwap_train_set'
+train_dir_fake_2 = 'path_to_fake_Face2Face_train_set'
+train_dir_fake_3 = 'path_to_fake_Deepfakes_train_set'
+train_dir_fake_4 = 'path_to_fake_NeuralTextures_train_set'
 
-valid_dir_real = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/real/Images/RealValidationSet/real/'
-valid_dir_fake = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/fake/Images/FakeValidationSet/FaceSwap/'
-valid_dir_fake_2 = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/fake/Images/FakeValidationSet/Face2Face/'
-valid_dir_fake_3 = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/fake/Images/FakeValidationSet/Deepfakes/'
-valid_dir_fake_4 = '/Users/Sohail/Desktop/Research/PhD/Year1/NewDeepfakeDetector/Datasets/DeepfakeDetection/FaceForensics/fake/Images/FakeValidationSet/NeuralTextures/'
+valid_dir_real = 'path_to_real_validation_set'
+valid_dir_fake = 'path_to_fake_FaceSwap_validation_set'
+valid_dir_fake_2 = 'path_to_fake_Face2Face_validation_set'
+valid_dir_fake_3 = 'path_to_fake_Deepfakes_validation_set'
+valid_dir_fake_4 = 'path_to_fake_NeuralTextures_validation_set'
 
 paths.append(train_dir_real)
 paths.append(train_dir_fake)
