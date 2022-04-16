@@ -44,6 +44,7 @@ I would like to thank, (1) cleardusk for the 3DDFA implementation, (2) LukeMelas
 
 If you find this code useful, please cite the following:
 
+```
 @article{Khan2021VideoTF,
   title={Video Transformer for Deepfake Detection with Incremental Learning},
   author={Sohail Ahmed Khan and Hang Dai},
@@ -64,3 +65,4 @@ If you find this code useful, please cite the following:
     howpublished = {\url{https://github.com/cleardusk/3DDFA}},
     year =         {2018}
 }
+```
