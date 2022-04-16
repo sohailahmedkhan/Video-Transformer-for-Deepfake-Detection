@@ -31,3 +31,27 @@ NOTE: Video transformer training will be added soon. You can see the VideoTransf
 
 
 I would like to thank, (1) cleardusk for the 3DDFA implementation, (2) LukeMelas for transformer architecture and pre-trained ViT models, (3) Ross Wightman for XceptionNet.
+
+
+For any questions, please raise "Issues". If you find this code useful, please cite the following:
+
+@article{Khan2021VideoTF,
+  title={Video Transformer for Deepfake Detection with Incremental Learning},
+  author={Sohail Ahmed Khan and Hang Dai},
+  journal={Proceedings of the 29th ACM International Conference on Multimedia},
+  year={2021}
+}
+
+@inproceedings{guo2020towards,
+    title =        {Towards Fast, Accurate and Stable 3D Dense Face Alignment},
+    author =       {Guo, Jianzhu and Zhu, Xiangyu and Yang, Yang and Yang, Fan and Lei, Zhen and Li, Stan Z},
+    booktitle =    {Proceedings of the European Conference on Computer Vision (ECCV)},
+    year =         {2020}
+}
+
+@misc{3ddfa_cleardusk,
+    author =       {Guo, Jianzhu and Zhu, Xiangyu and Lei, Zhen},
+    title =        {3DDFA},
+    howpublished = {\url{https://github.com/cleardusk/3DDFA}},
+    year =         {2018}
+}
