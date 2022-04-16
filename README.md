@@ -11,12 +11,16 @@ Tested on Linux and macOS. For Windows, please refer to this issue: https://gith
 
 **1: Clone this repo**
 
+```python
 git clone https://github.com/sohailahmedkhan/Video_Transformer_Deepfake_Detector.git
 cd Video_Transformer_Deepfake_Detector
+```
 
 **2: Build the cython version of NMS, Sim3DR** 
 
+```python
 sh ./build.sh
+```
 
 **3: Train Image ViT**
 
