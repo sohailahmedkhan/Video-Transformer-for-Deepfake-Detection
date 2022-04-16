@@ -27,7 +27,7 @@ To train image transformer, run following command. NOTE: You need to add the loc
 To easily run training using Jupyter Notebook, you can use ImageTransformer.ipynb file.
 NOTE: Video transformer training will be added soon. You can see the VideoTransformer's architecture in models directory, in file "videotransformer.py"
 
-
+## Acknowledgements
 
 I would like to thank, (1) cleardusk for the 3DDFA implementation, (2) LukeMelas for transformer architecture and pre-trained ViT models, (3) Ross Wightman for XceptionNet.
 
