@@ -20,7 +20,10 @@ sh ./build.sh
 
 **3: Train Image ViT**
 
+```python
 python train_Image_ViT.py
+```
+
 
 To train image transformer, run following command. NOTE: You need to add the location of train and validation directories. You can do this by manually editing "train_Image_ViT.py" file. 
 
