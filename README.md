@@ -38,7 +38,7 @@ For any questions, please raise "Issues".
 
 ## Acknowledgements
 
-I would like to thank, (1) cleardusk for the 3DDFA implementation, (2) <a href="https://github.com/lukemelas/PyTorch-Pretrained-ViT">LukeMelas</a> for transformer architecture and pre-trained ViT models, (3) Ross Wightman for XceptionNet.
+I would like to thank, (1) <a href="https://github.com/cleardusk/3DDFA_V2">cleardusk</a> for the 3DDFA implementation, (2) <a href="https://github.com/lukemelas/PyTorch-Pretrained-ViT">LukeMelas</a> for transformer architecture and pre-trained ViT models, (3) <a href="https://github.com/rwightman/pytorch-image-models">Ross Wightman</a> for XceptionNet.
 
 ## Cite
 
