@@ -232,7 +232,7 @@ class VideoTransformer(nn.Module):
 
 
         if hasattr(self, 'class_token'):
-            x = torch.cat((self.class_token.expand(batch, -1, -1), x), dim=1)  # b,gh*gw+1,d
+            x = torch.cat((self.class_token.expand(batch, -1, -1), batch_images_cat), dim=1)  # b,gh*gw+1,d
         if hasattr(self, 'positional_embedding'): 
             x = self.positional_embedding(x)  # b,gh*gw+1,d 
 
