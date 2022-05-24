@@ -56,7 +56,7 @@ train_loader, valid_loader = VideoTrainDataset.get_image_batches(paths, batch_si
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 model = ImageTransformer('B_16_imagenet1k', pretrained=True, image_size = 384, num_classes = 2,
-                        seq_embed=True, hybrid=False, variant='image', device=device)
+                        seq_embed=True, hybrid=True, variant='image', device=device)
 
 epochs = 15
 lr = 3e-3
