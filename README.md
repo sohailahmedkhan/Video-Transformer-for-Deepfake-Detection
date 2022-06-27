@@ -32,7 +32,6 @@ python train_Image_ViT.py
 To train image transformer, run following command. NOTE: You need to add the location of train and validation directories. You can do this by manually editing "train_Image_ViT.py" file. 
 
 To easily run training using Jupyter Notebook, you can use ImageTransformer.ipynb file.
-NOTE: Video transformer training will be added soon. You can see the VideoTransformer's architecture in models directory, in file "videotransformer.py"
 
 For any questions, please raise "Issues". 
 
