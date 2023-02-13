@@ -12,7 +12,7 @@ Tested on Linux and macOS. For Windows, please refer to this issue: https://gith
 **1: Clone this repo**
 
 ```python
-git clone https://github.com/sohailahmedkhan/Video_Transformer_Deepfake_Detector.git
+git clone https://github.com/sohailahmedkhan/Video-Transformer-for-Deepfake-Detection.git
 cd Video_Transformer_Deepfake_Detector
 ```
 
