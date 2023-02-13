@@ -13,7 +13,7 @@ Tested on Linux and macOS. For Windows, please refer to this issue: https://gith
 
 ```python
 git clone https://github.com/sohailahmedkhan/Video-Transformer-for-Deepfake-Detection.git
-cd Video_Transformer_Deepfake_Detector
+cd Video-Transformer-for-Deepfake-Detection
 ```
 
 **2: Build the cython version of NMS, Sim3DR** 
